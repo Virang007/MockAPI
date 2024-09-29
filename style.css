@@ -14,7 +14,7 @@ body {
 
 header {
     /* background-color: #a4adb7; */
-    background: linear-gradient(to right, rgb(255, 47, 0), rgb(255, 32, 32), rgb(255, 255, 255), rgb(168, 247, 156), rgb(95, 218, 38));
+    background: linear-gradient(to right, rgb(255, 47, 0), rgb(255, 32, 32), rgb(83, 239, 48), rgb(28, 196, 190), rgb(12, 87, 162));
     color: white;
     padding: 10px 0;
 }
@@ -278,3 +278,47 @@ a:hover {
     background-color: #45a049;
 }
 
+footer {
+    background-color: #000; /* Black background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust logo size */
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-buttons .github-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-buttons .github-btn:hover {
+    background-color: #555;
+}
+
+.footer-text {
+    margin-top: 10px;
+}
+
+.footer-text p {
+    font-size: 14px;
+}
