@@ -4,53 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON MockAPI</title>
+    <title>MockAPI</title>
+    <link rel="icon" href="logo2.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <!-- <ul>
-                <li><a href="#">Guide</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul> -->
             <div class="right-nav">
-                <a href="#" class="new-project">Check my new project ❤️</a>
+                <a href="https://github.com/Virang007" class="new-project">Check my new project ❤️</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="main-content">
-            <h1>{JSON} MockAPI</h1>
-            <p>Free fake and reliable API for testing and prototyping.<br>
-                Powered by <a href="#">JSON</a> + <a href="#">LowDB</a>.
+            <h1>JSON.MockAPI</h1>
+            <p>Free fake and reliable API for testing and prototyping
             </p>
         </section>
 
         <section class="sponsors">
-            <h2>{JSON} MockAPI is a free online REST API that you can use</h2>
-            <!-- <p>JSONPlaceholder is supported by the following companies and <a href="#">Sponsors</a> on GitHub, check
-                them out ❤️</p> -->
+            <h2>MockAPI is a free online REST API that you can use</h2>
         </section>
 
         <!-- Try It Section -->
         <section class="try-it">
             <h2>Try it</h2>
-            <p>Run this code here, in a console or from any site:</p>
+            <p>Run this code here, in a browser or from any :</p>
             <div class="code-block">
-                <pre><code>fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then(response => response.json())
-    .then(json => console.log(json))</code></pre>
+                <pre><code>https://virang007.github.io/api/comments.json</code></pre>
             </div>
             <div class="json-output">
-                <pre><code>{
-    "userId": 1,
-    "id": 1,
-    "title": "delectus aut autem",
-    "completed": false
-}</code></pre>
+                <pre><code> 
+                    {
+                    "postId": 1,
+                    "id": 1,
+                    "name": "John Doe",
+                    "email": "john.doe@example.com",
+                    "body": "This is a sample comment for testing purposes"
+                    }
+            </code></pre>
             </div>
             <p>Congrats! You've made your first call to JSONMockAPI. 😊 🎉</p>
         </section>
@@ -60,8 +55,7 @@
                 <p>
                     MockAPI is a free online REST API that you can use
                     <strong>whenever you need some fake data</strong>.
-                    It can be in a README on GitHub, for a demo on CodeSandbox,
-                    in code examples on Stack Overflow, or simply to test things locally.
+                    It can be in a README on GitHub,or simply to test things locally 🎉.
                 </p>
             </section>
 
@@ -70,59 +64,80 @@
                 <p>MockAPI comes with a set of 6 common resources:</p>
                 <ul>
                     <li>
-                        <a href="#">/posts</a> 100 posts 
-                        <button class="open-btn" data-url="https://virang007.github.io/MockAPI/db.json">Open</button>
+                        <a href="#">/posts</a>&nbsp;&nbsp;&nbsp;posts
+                        <button class="open-btn" data-url="https://virang007.github.io/MockAPI/api.json">Open</button>
                     </li>
                     <li>
-                        <a href="#">/comments</a> 500 comments 
-                        <button class="open-btn" data-url="https://jsonplaceholder.typicode.com/comments">Open</button>
+                        <a href="#">/comments</a>&nbsp;&nbsp;&nbsp;comments
+                        <button class="open-btn"
+                            data-url="https://virang007.github.io/MockAPI/comments.json">Open</button>
                     </li>
                     <li>
-                        <a href="#">/albums</a> 100 albums 
-                        <button class="open-btn" data-url="https://jsonplaceholder.typicode.com/albums">Open</button>
+                        <a href="#">/users</a>&nbsp;&nbsp;&nbsp;users
+                        <button class="open-btn" data-url="https://virang007.github.io/MockAPI/user.json">Open</button>
                     </li>
                     <li>
-                        <a href="#">/photos</a> 5000 photos 
-                        <button class="open-btn" data-url="https://jsonplaceholder.typicode.com/photos">Open</button>
+                        <a href="#">/photos</a>&nbsp;&nbsp;&nbsp;photos
+                        <button class="open-btn"
+                            data-url="https://virang007.github.io/MockAPI/photos.json">Open</button>
                     </li>
                     <li>
-                        <a href="#">/todos</a> 200 todos 
-                        <button class="open-btn" data-url="https://jsonplaceholder.typicode.com/todos">Open</button>
+                        <a href="#">/products</a> &nbsp;&nbsp;&nbsp; products
+                        <button class="open-btn"
+                            data-url="https://virang007.github.io/MockAPI/products.json">Open</button>
                     </li>
                     <li>
-                        <a href="#">/users</a> 10 users 
-                        <button class="open-btn" data-url="https://jsonplaceholder.typicode.com/users">Open</button>
+                        <a href="#">/Todos</a>&nbsp;&nbsp;&nbsp;Todos
+                        <button class="open-btn" data-url="https://virang007.github.io/MockAPI/todo.json">Open</button>
                     </li>
                 </ul>
-               
+
                 <p class="note">
                     <strong>Note:</strong> Resources have relations. For example, posts have many comments,
-                    albums have many photos, ... see <a href="#">guide</a> for the full list.
+                    photos, products have many photos, ... see for the full list.
                 </p>
             </section>
-        </main>
-    
-        <script>
-            // Add event listener to all buttons with the class "open-btn"
-            document.querySelectorAll('.open-btn').forEach(button => {
-                button.addEventListener('click', function() {
-                    var url = this.getAttribute('data-url');
-                    
-                    // Open the URL in a new browser tab
-                    window.open(url, '_blank');
-                });
-            });
-    
-            // Event listener for the main open button in the code box
-            document.getElementById("open-btn").addEventListener("click", function() {
-                var content = document.getElementById("json-get").textContent.trim();
-    
-                // Extract the URL or content (in this case the URL inside the JSON)
-                var url = content.match(/https?:\/\/[^\s]+/)[0];
-    
+    </main>
+
+    <script>
+        // Add event listener to all buttons with the class "open-btn"
+        document.querySelectorAll('.open-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                var url = this.getAttribute('data-url');
+
                 // Open the URL in a new browser tab
                 window.open(url, '_blank');
             });
-        </script>
-    </body>
-    </html>
+        });
+
+        // Event listener for the main open button in the code box
+        document.getElementById("open-btn").addEventListener("click", function () {
+            var content = document.getElementById("json-get").textContent.trim();
+
+            // Extract the URL or content (in this case the URL inside the JSON)
+            var url = content.match(/https?:\/\/[^\s]+/)[0];
+
+            // Open the URL in a new browser tab
+            window.open(url, '_blank');
+        });
+    </script>
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="logo.png" alt="Your Logo">
+            </div>
+            <div class="footer-info">
+                <p>Your Name: <strong>Virang Acharya</strong></p>
+                <p>Email: <a href="mailto:acharyavirang96@gmail.com">acharyavirang96@gmail.com</a></p>
+            </div>
+            <div class="footer-buttons">
+                <a href="https://github.com/Virang007?tab=repositories" target="_blank" class="github-btn">GitHub</a>
+            </div>
+            <div class="footer-text">
+                <p>Free MockAPI read and enjoy!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
