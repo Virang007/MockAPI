@@ -15,7 +15,7 @@ Check out the live version of the website [here](https://virang007.github.io/Moc
 You can try out the API right from your browser by calling the URL directly. Here's an example call to retrieve comments:
 
 ```bash
-curl https://virang007.github.io/MockAPI/api.json
+curl   https://virang007.github.io/MockAPI/user.json
 ```
 
 ```bash
