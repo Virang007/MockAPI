@@ -1,0 +1,107 @@
+[
+    {
+        "albumId": 1,
+        "id": 1,
+        "title": "Sample Image One",
+        "url": "https://dummyimage.com/600x400/92c952/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/92c952/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 2,
+        "title": "Placeholder Image Two",
+        "url": "https://dummyimage.com/600x400/771796/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/771796/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 3,
+        "title": "Test Image Three",
+        "url": "https://dummyimage.com/600x400/24f355/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/24f355/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 4,
+        "title": "Demo Image Four",
+        "url": "https://dummyimage.com/600x400/d32776/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/d32776/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 5,
+        "title": "Mock Image Five",
+        "url": "https://dummyimage.com/600x400/f66b97/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/f66b97/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 6,
+        "title": "Sample Image Six",
+        "url": "https://dummyimage.com/600x400/56a8c2/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/56a8c2/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 7,
+        "title": "Test Image Seven",
+        "url": "https://dummyimage.com/600x400/b0f7cc/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/b0f7cc/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 8,
+        "title": "Placeholder Image Eight",
+        "url": "https://dummyimage.com/600x400/54176f/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/54176f/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 9,
+        "title": "Mock Image Nine",
+        "url": "https://dummyimage.com/600x400/51aa97/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/51aa97/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 10,
+        "title": "Sample Image Ten",
+        "url": "https://dummyimage.com/600x400/810b14/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/810b14/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 11,
+        "title": "Test Image Eleven",
+        "url": "https://dummyimage.com/600x400/1ee8a4/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/1ee8a4/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 12,
+        "title": "Placeholder Image Twelve",
+        "url": "https://dummyimage.com/600x400/66b7d2/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/66b7d2/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 13,
+        "title": "Mock Image Thirteen",
+        "url": "https://dummyimage.com/600x400/197d29/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/197d29/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 14,
+        "title": "Demo Image Fourteen",
+        "url": "https://dummyimage.com/600x400/61a65/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/61a65/fff"
+    },
+    {
+        "albumId": 1,
+        "id": 15,
+        "title": "Test Image Fifteen",
+        "url": "https://dummyimage.com/600x400/f9cee5/fff",
+        "thumbnailUrl": "https://dummyimage.com/150x150/f9cee5/fff"
+    }
+]

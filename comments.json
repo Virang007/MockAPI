@@ -1,0 +1,72 @@
+[
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "body": "This is a sample comment for testing purposes. Feel free to replace it with actual data."
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "body": "Here is another dummy comment. This content is a placeholder for real feedback or user input."
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "Mike Johnson",
+        "email": "mike.johnson@example.com",
+        "body": "Testing comments like these helps developers prototype applications. Replace with actual text."
+    },
+    {
+        "postId": 1,
+        "id": 4,
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "body": "Placeholder text used for simulating user comments or feedback in development environments."
+    },
+    {
+        "postId": 1,
+        "id": 5,
+        "name": "Sarah Brown",
+        "email": "sarah.brown@example.com",
+        "body": "This is a random comment used to populate test data in an API response. Replace when needed."
+    },
+    {
+        "postId": 2,
+        "id": 6,
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "body": "Dummy content like this can be helpful in testing user feedback functionality in applications."
+    },
+    {
+        "postId": 2,
+        "id": 7,
+        "name": "Laura Miller",
+        "email": "laura.miller@example.com",
+        "body": "This is sample text used for testing purposes. You can change it to reflect real data."
+    },
+    {
+        "postId": 2,
+        "id": 8,
+        "name": "James Taylor",
+        "email": "james.taylor@example.com",
+        "body": "Another comment used as a placeholder in an API. This helps to test functionality during development."
+    },
+    {
+        "postId": 2,
+        "id": 9,
+        "name": "Olivia Martinez",
+        "email": "olivia.martinez@example.com",
+        "body": "Testing data with comments like this helps developers simulate real-world application feedback."
+    },
+    {
+        "postId": 2,
+        "id": 10,
+        "name": "Chris Anderson",
+        "email": "chris.anderson@example.com",
+        "body": "This is a placeholder comment that represents user input for an application test environment."
+    }
+]

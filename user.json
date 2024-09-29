@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johnd",
+        "email": "john@example.com",
+        "address": {
+            "city": "Dummyville",
+            "zipcode": "12345",
+            "geo": {
+                "lat": "10.1234",
+                "lng": "20.5678"
+            }
+        },
+        "phone": "123-456-7890",
+        "website": "dummywebsite.com",
+        "company": {
+            "name": "Dummy Corp",
+            "catchPhrase": "Leading edge innovation",
+            "bs": "optimize global networks"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "janes",
+        "email": "jane@example.com",
+        "address": {
+            "city": "Faketown",
+            "zipcode": "67890",
+            "geo": {
+                "lat": "40.1234",
+                "lng": "-50.5678"
+            }
+        },
+        "phone": "987-654-3210",
+        "website": "fakewebsite.com",
+        "company": {
+            "name": "Fake Industries",
+            "catchPhrase": "Innovative scalable solutions",
+            "bs": "streamline business processes"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Alex Johnson",
+        "username": "alexj",
+        "email": "alex@example.com",
+        "address": {
+            "city": "Nowhere City",
+            "zipcode": "54321",
+            "geo": {
+                "lat": "-30.1234",
+                "lng": "60.5678"
+            }
+        },
+        "phone": "555-123-4567",
+        "website": "nowhere.com",
+        "company": {
+            "name": "Nowhere Inc.",
+            "catchPhrase": "Bringing ideas to life",
+            "bs": "revolutionize tech industries"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sarah Lee",
+        "username": "slee",
+        "email": "sarah@example.com",
+        "address": {
+            "city": "Sample City",
+            "zipcode": "11223",
+            "geo": {
+                "lat": "12.3456",
+                "lng": "-65.4321"
+            }
+        },
+        "phone": "789-456-1230",
+        "website": "samplewebsite.com",
+        "company": {
+            "name": "Sample Enterprises",
+            "catchPhrase": "Empowering innovative solutions",
+            "bs": "disrupt traditional industries"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Michael Brown",
+        "username": "mikeb",
+        "email": "michael@example.com",
+        "address": {
+            "city": "Fictional City",
+            "zipcode": "44556",
+            "geo": {
+                "lat": "-20.1234",
+                "lng": "70.5678"
+            }
+        },
+        "phone": "321-654-9870",
+        "website": "fictionalweb.com",
+        "company": {
+            "name": "Fictional Solutions",
+            "catchPhrase": "Next-generation cloud computing",
+            "bs": "enhance data-driven strategies"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Emily Davis",
+        "username": "emilyd",
+        "email": "emily@example.com",
+        "address": {
+            "city": "Mythical Town",
+            "zipcode": "77889",
+            "geo": {
+                "lat": "30.1234",
+                "lng": "-80.5678"
+            }
+        },
+        "phone": "654-789-1234",
+        "website": "mythictown.com",
+        "company": {
+            "name": "Mythic Innovations",
+            "catchPhrase": "Sustainable technology for tomorrow",
+            "bs": "build eco-friendly infrastructure"
+        }
+    },
+    {
+        "id": 7,
+        "name": "David Martin",
+        "username": "davidm",
+        "email": "david@example.com",
+        "address": {
+            "city": "Virtual City",
+            "zipcode": "99887",
+            "geo": {
+                "lat": "45.1234",
+                "lng": "-30.5678"
+            }
+        },
+        "phone": "987-321-6540",
+        "website": "virtualcityweb.com",
+        "company": {
+            "name": "Virtual Dynamics",
+            "catchPhrase": "Augmenting digital experiences",
+            "bs": "create immersive VR solutions"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Sophia Wilson",
+        "username": "sophiaw",
+        "email": "sophia@example.com",
+        "address": {
+            "city": "Dreamland",
+            "zipcode": "55443",
+            "geo": {
+                "lat": "25.1234",
+                "lng": "55.5678"
+            }
+        },
+        "phone": "321-987-6543",
+        "website": "dreamland.com",
+        "company": {
+            "name": "Dream Tech",
+            "catchPhrase": "Creating dreams into reality",
+            "bs": "deliver innovative dream products"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Henry Clark",
+        "username": "henryc",
+        "email": "henry@example.com",
+        "address": {
+            "city": "Fantasy City",
+            "zipcode": "66778",
+            "geo": {
+                "lat": "60.1234",
+                "lng": "-40.5678"
+            }
+        },
+        "phone": "765-432-1098",
+        "website": "fantasytech.com",
+        "company": {
+            "name": "Fantasy Technologies",
+            "catchPhrase": "Pioneering virtual futures",
+            "bs": "push boundaries of virtual worlds"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Olivia Evans",
+        "username": "oliviae",
+        "email": "olivia@example.com",
+        "address": {
+            "city": "Fable Town",
+            "zipcode": "88990",
+            "geo": {
+                "lat": "-50.1234",
+                "lng": "10.5678"
+            }
+        },
+        "phone": "543-210-9876",
+        "website": "fableweb.com",
+        "company": {
+            "name": "Fable Tech",
+            "catchPhrase": "Revolutionizing digital landscapes",
+            "bs": "transform virtual creativity"
+        }
+    }
+]

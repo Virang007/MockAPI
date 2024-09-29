@@ -1,0 +1,62 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Placeholder Title One",
+        "body": "This is a dummy text for the body of the first entry. It serves as a placeholder."
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "Sample Title Two",
+        "body": "Here is some random dummy text for the second entry. This is just a placeholder."
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "Example Title Three",
+        "body": "This entry contains placeholder content for testing and development purposes."
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "Test Title Four",
+        "body": "Another dummy body text used to populate sample data for testing APIs."
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "Demo Title Five",
+        "body": "This is just filler content to simulate a response from an API."
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "Mock Title Six",
+        "body": "Placeholder content used for testing data. Feel free to replace it."
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "Sample Entry Seven",
+        "body": "This is some example text used to fill in the body of entry seven."
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "Test Data Eight",
+        "body": "This is another example of placeholder data used for an API response."
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "Example Title Nine",
+        "body": "The content here serves as a placeholder for testing JSON API responses."
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "Mock Data Ten",
+        "body": "Here’s some filler text used as placeholder data for the last entry."
+    }
+]
