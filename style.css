@@ -367,4 +367,9 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    .code-block code {
+        color: #9cdcfe;
+        line-height: 1.6;
+         font-size:10px;
+    }
 }
